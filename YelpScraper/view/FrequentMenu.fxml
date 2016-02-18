@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs4440teamproject.controller.FrequentMenuController">
+   <children>
+      <TreeTableView fx:id="treeTable" layoutX="22.0" layoutY="101.0" prefHeight="635.0" prefWidth="788.0">
+        <columns>
+          <TreeTableColumn fx:id="menuCol" prefWidth="508.0" text="Menus" />
+          <TreeTableColumn fx:id="countCol" prefWidth="274.0" text="Count" />
+        </columns>
+      </TreeTableView>
+      <Button layoutX="858.0" layoutY="552.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="171.0" prefWidth="128.0" text="Main Menu" />
+      <Label layoutX="249.0" layoutY="27.0" text="Clustering of frequently shown menus">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

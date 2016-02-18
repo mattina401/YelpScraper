@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs4440teamproject.controller.WordRankingController">
+   <children>
+      <Label layoutX="169.0" layoutY="50.0" text="Words ranking based frequency of its appearance.">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableView" layoutX="76.0" layoutY="118.0" prefHeight="621.0" prefWidth="533.0">
+        <columns>
+          <TableColumn fx:id="wordCol" prefWidth="263.0" text="Word" />
+          <TableColumn fx:id="countCol" prefWidth="269.0" text="Count" />
+        </columns>
+      </TableView>
+      <Button layoutX="667.0" layoutY="547.0" mnemonicParsing="false" onAction="#buttonTwoClick" prefHeight="89.0" prefWidth="304.0" text="Back" />
+      <Button layoutX="667.0" layoutY="400.0" mnemonicParsing="false" onAction="#buttonOneClick" prefHeight="89.0" prefWidth="304.0" text="Next" />
+   </children>
+</AnchorPane>
