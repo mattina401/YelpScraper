@@ -8,10 +8,7 @@ package cs4440teamproject;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 
-/**
- *
- * @author Keun Lee
- */
+
 public class Item {
     private SimpleStringProperty name;
     private SimpleIntegerProperty count;
