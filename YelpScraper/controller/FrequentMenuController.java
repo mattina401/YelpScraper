@@ -31,11 +31,7 @@ import javafx.scene.control.TreeTableColumn;
 import javafx.scene.control.TreeTableView;
 import javafx.scene.control.cell.TreeItemPropertyValueFactory;
 
-/**
- * FXML Controller class
- *
- * @author Keun Lee
- */
+
 public class FrequentMenuController implements Initializable {
     @FXML private TreeTableView treeTable;
     @FXML private TreeTableColumn menuCol;
