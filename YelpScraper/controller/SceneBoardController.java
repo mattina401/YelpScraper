@@ -9,10 +9,7 @@ import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.layout.StackPane;
 
-/**
- *
- * @author Keun Lee
- */
+
 public class SceneBoardController {
     @FXML private StackPane board;
     public void setScene(Node node) {
