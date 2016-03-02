@@ -20,10 +20,7 @@ import org.jsoup.select.Elements;
 
 
 
-/**
- *
- * @author Keun Lee
- */
+
 public class YelpScraper {
     public static void scrape(String menu, String location, int limit) {
         Mongo m = new MongoClient();
