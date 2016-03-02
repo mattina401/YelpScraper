@@ -30,11 +30,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
-/**
- * FXML Controller class
- *
- * @author Keun Lee
- */
+
 public class WordRankingController implements Initializable {
     private static final String[] CHECKWORDS = {"la", "de", "and", "or", "my", "of", "in", "di", "e", "-", "a", "b", "c", "s", "d", "r", "u"};
     
