@@ -7,10 +7,6 @@ package cs4440teamproject;
 
 import javafx.beans.property.SimpleStringProperty;
 
-/**
- *
- * @author Keun Lee
- */
 public class MenuWordCount {
     private SimpleStringProperty word;
     private SimpleStringProperty count;
