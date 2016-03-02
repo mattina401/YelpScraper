@@ -11,10 +11,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.fxml.FXMLLoader;
 
-/**
- *
- * @author Keun Lee
- */
+
 public class SceneNavigator {
     public static final String WELCOME = "view/WelcomeScene.fxml";
     public static final String WORD = "view/WordRanking.fxml";
