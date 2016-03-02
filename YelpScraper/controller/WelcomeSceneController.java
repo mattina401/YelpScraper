@@ -20,11 +20,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.Toggle;
 import javafx.scene.control.ToggleGroup;
 
-/**
- * FXML Controller class
- *
- * @author Keun Lee
- */
+
 public class WelcomeSceneController implements Initializable {
     @FXML private RadioButton rb1;
     @FXML private RadioButton rb2;
